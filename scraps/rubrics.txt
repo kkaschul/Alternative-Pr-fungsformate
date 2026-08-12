@@ -1,0 +1,1080 @@
+Bewertungsraster
+Enthaltene Formate (11)
+• 	01 Podcast
+• 	02 Erklärvideo
+• 	03 Elevator Pitch
+• 	04 Hot Seat-Diskussion
+• 	05 Poetry Slam
+• 	06 Offener Brief
+• 	07 Infografik / Poster
+• 	08 Concept Map + Fachgespräch
+• 	09 Lernvideo-Tutorial
+• 	10 Rollenspiel / Simulation
+• 	11 Fishbowl-Diskussion
+• 	12 Lapbook
+• 	13 Collage
+• 	14 Modell
+
+-- 1 of 12 --
+
+Podcast-Episode
+Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 15–20 Min. · Sozialform: Gruppe oder Einzel
+Schülerinnen und Schüler erstellen eine Podcast-Episode zu einem fachlichen Thema. Bei KI-Nutzung wird ein
+KI-Logbuch geführt (dokumentiert Prompts, KI-Output, eigene Überarbeitungen).
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt. 	Pkt.
+Fachlicher
+Inhalt
+Inhalt
+überwiegend
+fehlerhaft oder
+fehlt
+Grundaussagen
+teils korrekt
+Grundaussagen
+korrekt, Tiefe
+ausbaufähig
+Fachlich korrekt,
+angemessene Tiefe
+Präzise,
+differenziert,
+eigenständig
+verknüpft
+Struktur &
+Dramaturgie
+Kein roter
+Faden
+erkennbar
+Ansatz einer
+Struktur
+Einleitung,
+Hauptteil,
+Schluss
+erkennbar
+Klarer Aufbau,
+Übergänge gezielt
+Durchdachte
+Dramaturgie,
+Publikum
+eingebunden
+Sprache &
+Verständlichkeit
+Überwiegend
+unverständlich
+Teils
+verständlich,
+kaum
+Fachsprache
+Verständlich,
+Fachsprache
+vorhanden
+Zielgruppengerecht,
+Fachsprache
+korrekt
+Lebendig,
+souveräne
+Fachsprache
+Quellennutzung
+& Recherche
+Keine Quellen
+im Podcast
+genannt
+1–2 Quellen
+benannt, kaum
+Einordnung
+Mehrere
+Quellen
+benannt
+Quellen
+eingeordnet, Bezug
+zum Inhalt
+Quellen kritisch
+geprüft, im
+Podcast erklärt
+KI-Logbuch
+(falls genutzt)
+Nicht
+vorhanden /
+nicht
+nachvollziehbar
+Prompts
+dokumentiert,
+keine Reflexion
+Nutzung
+dokumentiert,
+Entscheidungen
+benannt
+Eigenleistung klar
+abgegrenzt
+Tiefe Reflexion,
+KI-Beitrag und
+Eigenleistung
+differenziert
+Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Fachtiefe 	1 Kernaussage klar erklärt 2–3 Aspekte verbunden,
+Belege
+Mehrperspektivisch, Argumente
+gewichtet
+Länge / Tiefe 	10–15 Min., 1 Leitgedanke 15–20 Min., strukturierter
+Inhalt 20 Min., inhaltlich dicht
+KI-Nutzung KI als Formulierungshilfe mit
+Anleitung
+KI-Output kritisch prüfen,
+Änderungen begründen
+KI evaluieren, eigene Position
+entwickeln
+Quellenarbeit 	1–2 Quellen, benennen reicht 	Quellen einordnen Quellenkritik und
+Perspektivenabgleich
+Feedback
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 2 of 12 --
+
+Erklärvideo
+Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 5–10 Min. · Sozialform: Gruppe oder Einzel
+Eine visuelle Erklärung eines Begriffs oder Prozesses als Screencast, gezeichnetes Video oder Stop-Motion.
+KI-Nutzung möglich und wird mit KI-Logbuch nachgewiesen.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachlicher
+Inhalt
+Inhalt
+fehlerhaft /
+fehlt
+Grundlagen
+vorhanden,
+Lücken
+Fachlich
+korrekt,
+wesentliche
+Aspekte
+Korrekt und
+vollständig
+Vollständig,
+Zusammenhänge
+sichtbar
+Visualisierung 	Bilder
+unpassend /
+fehlen
+Visualisierung
+vorhanden,
+wenig hilfreich
+Unterstützt
+das
+Verständnis
+Gezielt
+eingesetzt, klar
+gegliedert
+Kreativ und präzise,
+Gestaltungsprinzipien
+bewusst
+Verständlichkeit 	Erklärung
+unverständlich
+Teils
+nachvollziehbar
+Verständlich,
+angepasstes
+Tempo
+Schülerorientiert,
+Vorwissen
+berücksichtigt
+Fachlich durchdacht,
+Roter Faden
+erkennbar
+Technische
+Qualität
+Ton/Bild kaum
+nutzbar
+Technisch
+ausreichend
+Gute Qualität 	Klarer Ton,
+stabile Bilder
+Professionelle
+Aufbereitung
+KI-Logbuch
+(falls genutzt)
+Nicht
+vorhanden
+Nutzung
+benannt, keine
+Reflexion
+Dokumentiert
+und
+begründet
+Eigenleistung
+klar abgegrenzt
+Kritisch reflektiert:
+Design vs. Inhalt
+getrennt
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Inhaltskomplexität 	1 Prozess / Begriff erklären 	Zusammenhänge herstellen 	Systemische Einordnung, Kritik
+Visualisierung 	Bildkarten / einfache Grafiken 	Digitales Layout / eigene
+Zeichnungen
+Konzeptionelles Designdenken
+Länge 	5–7 Min. 	7–10 Min. 	10 Min., inhaltlich dicht
+KI-Nutzung 	KI für Textentwürfe,
+Übernahmen zeigen
+KI für Recherche und Skript,
+überarbeiten
+KI gezielt einsetzen, Grenzen
+benennen
+Feedback
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 3 of 12 --
+
+Elevator Pitch
+Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 3–5 Min. · Sozialform: Einzel
+Ein prägnanter Kurzvortrag, der eine Lösung oder Idee überzeugend und komprimiert darstellt. Eigene Leistung
+– kein KI-Einsatz während der Prüfung.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachliche
+Substanz
+Kaum
+Fachwissen
+erkennbar
+Grundkenntnisse
+vorhanden
+Fachlich
+korrekt und
+nachvollziehbar
+Korrekt,
+Fachwissen
+präzise
+eingesetzt
+Überzeugend
+argumentiert,
+differenziert
+Aufbau &
+Stringenz
+Kein roter
+Faden
+Ansatz
+vorhanden
+Logischer
+Aufbau
+Verdichtet
+auf das
+Wesentliche
+Perfekter
+Spannungsbogen,
+Publikum einbezogen
+Auftritt &
+Wirkung
+Sehr unsicher,
+kein
+Blickkontakt
+Teilweise sicher 	Sicherer
+Auftritt, Gestik
+angemessen
+Souverän,
+überzeugend
+Mitreißend, Publikum
+aktiv einbezogen
+Zeitmanagement 	Deutlich über-
+/ unterzogen
+Näherungsweise
+passend
+Im Zeitrahmen 	Gut getaktet 	Perfekt – jede Sekunde
+genutzt
+Fachgespräch
+(Gate 2)
+Kernaussagen
+nicht erklärbar
+Teils erklärbar 	Fachfragen
+kompetent
+beantwortet
+Reflektiert,
+auf
+Rückfragen
+eingegangen
+Differenziert,
+Querverbindungen
+hergestellt
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen:
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Sprachliche
+Anforderung
+Verständlich auf Alltagsniveau 	Fachbegriffe korrekt
+eingesetzt
+Präzise Fachsprache, Rhetorik
+Inhalt 	1 Lösung benennen und
+begründen
+Vor- und Nachteile abwägen 	Komplexität benennen,
+Zielgruppe adressieren
+Fachgespräch 	3 vorgegebene Leitfragen 	2 offene Fragen 	Freies Expertengespräch
+KI-Vorbereitung 	Keine KI-Nutzung 	Recherche mit KI erlaubt (kein
+Logbuch)
+Keine KI – Eigenleistung im
+Vordergrund
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 4 of 12 --
+
+Hot Seat-Diskussion
+Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 15–20 Min. · Sozialform: Gruppe
+Ein prägnanter Kurzvortrag, der eine Lösung oder Idee überzeugend und komprimiert darstellt. Eigene Leistung
+– kein KI-Einsatz während der Prüfung.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachwissen (Hot
+Seat)
+Fragen nicht
+beantwortbar
+Einzelne
+Fragen
+beantwortet
+Meiste Fragen
+korrekt
+beantwortet
+Fachlich sicher,
+differenziert
+Souverän,
+verknüpfend, auf
+alle Fragen
+eingegangen
+Fragequalität
+(Fragende)
+Fragen
+oberflächlich /
+nicht
+fachbezogen
+Fachbezug
+vorhanden,
+wenig Tiefe
+Gezielte
+Fachfragen
+Kritische,
+vertiefende Fragen
+Strategisch
+hinterfragend,
+Diskurs angeregt
+Argumentation 	Kaum
+Begründungen
+Ansatzweise
+begründet
+Gut begründet 	Belege
+eingebracht,
+kohärent
+Stringent,
+Gegenargumente
+aufgegriffen
+Diskussionsbeitrag 	Keine
+Beteiligung
+Gelegentlich
+beteiligt
+Aktiv,
+konstruktiv
+Strukturierend,
+initiierend
+Leitet die
+Diskussion, alle
+einbezogen
+Reflexion (nach
+Diskussion)
+Keine
+Reflexion
+Oberflächliche
+Rückmeldung
+Eigene
+Stärken/Lücken
+benannt
+Differenzierte
+Selbsteinschätzung
+Lernziele formuliert,
+Konsequenzen
+gezogen
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen:
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Fragetypen 	Wer-Was-Wann
+(geschlossen)
+Wie-Warum-Fragen 	Inwiefern-, Folgen-Fragen (offen)
+Zeitdruck 	Bedenkzeit erlaubt 	Kurze Bedenkzeit 	Ohne Bedenkzeit
+Vorbereitung 	Fragekarten werden gestellt 	Fragen selbst entwickeln 	Spontane Nachfragen, keine
+Vorbereitung
+Reflexion 	Leitfragen vorgegeben 	Teiloffene Reflexion 	Freie Metareflexion
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 5 of 12 --
+
+Poetry Slam
+Kreativ-sprachlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 5–8 Min. · Sozialform: Einzel
+Fachliche Inhalte werden in einem selbst geschriebenen Slam-Text kreativ aufbereitet und vorgetragen. KI ist
+optional und wird im Logbuch dokumentiert.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachlicher Inhalt 	Kein Fachwissen
+erkennbar
+Fachlicher
+Bezug
+angedeutet
+Kernaussagen
+korrekt
+eingebettet
+Fachinhalte
+präzise
+verwoben
+Kreativ und präzise,
+eigenständige
+Wertung sichtbar
+Sprachliche
+Gestaltung
+Kaum
+Gestaltungsmittel
+Einfache Mittel
+(Reim)
+Bildsprache,
+Rhythmus
+bewusst
+Gezielt
+eingesetzte
+Stilmittel
+Sprachlich stark,
+eigene Stimme
+erkennbar
+Authentizität &
+Eigenleistung
+Text wirkt
+übernommen /
+fremd
+Eigene Anteile
+erkennbar
+Eigene
+Stimme
+deutlich
+Originell,
+persönlich
+Mutig, einzigartig
+Vortrag &
+Wirkung
+Sehr leise, kein
+Blickkontakt
+Teils
+ausdrucksstark
+Ausdrucksvoll,
+Tempo variiert
+Mitreißend 	Publikum einbezogen,
+Wirkung gezielt
+KI-Logbuch (falls
+genutzt)
+Nicht vorhanden 	KI-Nutzung
+benannt
+Dokumentiert,
+Eigenanteile
+erkennbar
+Eigenleistung
+klar
+abgegrenzt
+Reflexion: KI-Sprache
+vs. eigene Stimme
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Fachtiefe 	1 Kernbotschaft klar
+transportiert
+Mehrere Aspekte verbunden 	Komplexer Gedankengang
+verdichtet
+Länge 	3–5 Min. 	5–7 Min. 	7–8 Min., dicht
+Sprachliche
+Mittel
+Reim und Rhythmus 	Metaphern, Wiederholung 	Komplexe Stilmittel, eigener Stil
+KI-Nutzung 	Kein KI 	Formulierungsideen prüfen 	KI als Sprachspiegel – Kontrast
+zur eigenen Stimme
+Feedback
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 6 of 12 --
+
+Offener Brief
+Schriftlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 1–2 Seiten · Sozialform: Einzel
+Schülerinnen und Schüler verfassen einen offenen Brief zu einem fachbezogenen Thema. KI optional, mit
+Logbuch. Einzelleistung.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachlicher
+Inhalt
+Fachlich
+fehlerhaft /
+fehlt
+Grundbezug
+vorhanden
+Fachlich
+korrekt und
+nachvollziehbar
+Differenziert,
+eigene Wertung
+Präzise, belegt,
+tiefgründig
+Textstruktur &
+Aufbau
+Kein
+erkennbarer
+Aufbau
+Ansatz
+vorhanden
+Einleitung,
+Hauptteil,
+Appell
+Überzeugend
+strukturiert
+Spannungsbogen und
+Adressatenbezug gezielt
+Argumentation 	Behauptungen
+ohne Belege
+Einzelne
+Argumente,
+kaum belegt
+Mehrere
+Argumente mit
+Belegen
+Kohärente
+Argumentation
+Strategisch,
+Gegenargumente
+eingebunden
+Sprachliche
+Gestaltung
+Viele Fehler,
+kaum Stil
+Verständlich,
+wenig Stil
+Stil
+angemessen,
+Fachsprache
+korrekt
+Stilistisch
+überzeugend
+Zielgruppengerecht,
+rhetorisch stark
+KI-Logbuch
+(falls genutzt)
+Nicht
+vorhanden
+Nutzung
+dokumentiert
+Eigenleistung
+belegt
+Überarbeitungen
+sichtbar
+Reflexion: Was hat KI
+besser / schlechter
+gemacht?
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Umfang 	1 Seite, Kernaussage 	1,5 Seiten, Argumente 	2 Seiten, differenzierte
+Argumentation
+Argumentation 	1–2 Argumente + Beispiel 	3 Argumente, Gegenargument 	Komplexe
+Argumentationsstrategie
+Fachsprache 	Grundbegriffe korrekt 	Fachbegriffe differenziert 	Präzise, quellenbezogen
+KI-Nutzung 	Formulierungshilfe
+dokumentiert
+Inhaltliche Vorschläge kritisch
+prüfen
+KI als Gegenargumentation
+nutzen
+Feedback
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 7 of 12 --
+
+Infografik / Poster
+Visuell · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: DIN A1/A2 · Sozialform: Gruppe oder Einzel
+Visuelle Aufbereitung fachlicher Zusammenhänge, ergänzt durch ein kurzes Standdiskussionsgespräch. KI-
+Nutzung wird explizit mitbewertet.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachlicher Inhalt 	Fehlerhaft /
+fehlt
+Grundaussagen
+vorhanden
+Fachlich korrekt,
+wesentliche
+Aspekte
+Vollständig,
+differenziert
+Präzise,
+Zusammenhänge
+sichtbar gemacht
+Visualisierung &
+Design
+Unstrukturiert,
+kaum lesbar
+Lesbar, kein
+visuelles
+Konzept
+Übersichtlich,
+Hierarchie
+erkennbar
+Professionell,
+Gestaltungsprinzipien
+Gezielt und kreativ
+eingesetzt
+Informationsreduktion 	Viel zu viel/
+viel zu wenig
+Text
+Teilweise in
+Stichpunkten
+aufgeschrieben
+Stichpunktartig
+notiert
+Sinnvolle Stichpunkte
+mit Belegen
+Sinnvolle Stichpunkte
+mit Belegen und
+erkennbaren Quellen
+Standdiskussion /
+Gespräch
+Inhalt nicht
+erläuterbar
+Grundlegendes
+erläutert
+Sicher erläutert,
+Fragen
+beantwortet
+Differenziert erklärt 	Sicher auf alle
+Nachfragen
+eingegangen
+KI-Logbuch (falls
+genutzt)
+Kein
+Nachweis
+Nutzung
+benannt
+Eigenleistung
+abgegrenzt
+Begründete
+Entscheidungen
+Kritisch: Design vs.
+Inhalt getrennt
+bewertet
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen:
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Informationsdichte 	3–5 Kernaussagen 	5–8 Informationen mit
+Quellen
+Komplex vernetzte Informationen
+Gestaltung 	Handgezeichnet / einfache
+App
+Digitales Layout 	Konzeptionelles Designdenken
+Gespräch 	3 vorgegebene Fragen 	Offene Fragen zum Poster 	Kritische Expertenbefragung
+KI-Nutzung 	Bildrecherche / Textentwurf 	Layout-Ideen, kritisch prüfen 	KI für Daten-Visualisierung,
+Verantwortung klar
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 8 of 12 --
+
+Concept Map + Fachgespräch
+Mündlich-visuell · KI-Nutzung: Nein · Dauer/Umfang: 10–15 Min. · Sozialform: Einzel
+Schülerinnen und Schüler erstellen eine Concept Map zu einem Fachgebiet und erläutern diese im
+Einzelgespräch. Kein KI-Einsatz.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Bewertungsraster
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Vollständigkeit 	Wesentliche
+Begriffe
+fehlen
+Grundbegriffe
+vorhanden
+Zentrale
+Begriffe und
+Verbindungen
+Vollständig,
+differenziert
+Vollständig,
+Teilaspekte
+vernetzt
+Vernetzungsqualität 	Keine
+sinnvollen
+Verbindungen
+Einzelne
+Verbindungen
+benannt
+Verbindungen
+fachlich korrekt
+beschriftet
+Hierarchisch und
+lateral vernetzt
+Beziehungstypen
+differenziert
+benannt
+Mündliche Erläuterung 	Kann
+Concept Map
+nicht erklären
+Erklärt einzelne
+Teile
+Aufbau
+nachvollziehbar
+erklärt
+Zeigt Denkwege
+auf
+Erklärt
+Entscheidungen
+beim Aufbau
+Fachgespräch – Tiefe 	Fragen nicht
+beantwortbar
+Einzelne Fragen
+beantwortet
+Fachfragen
+sicher
+beantwortet
+Querverbindungen
+hergestellt
+Differenziert auf
+alle Rückfragen
+eingegangen
+Überarbeitungsprozess 	Keine
+Entwicklung
+sichtbar
+Eine
+Überarbeitungsspur
+vorhanden
+Lernentwicklung
+erkennbar
+Mehrfache
+Überarbeitungen
+Überarbeitungen
+dokumentiert
+und begründet
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen:
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Umfang 	6–10 Begriffe 	10–15 Begriffe 	15+ Begriffe mit Teilnetzen
+Verbindungstiefe 	Verbindungen benannt 	Verbindungsart beschriftet 	Richtung und Art differenziert
+Gesprächsführung 	Leitfragengespräch 	Teils offenes Gespräch 	Freies Expertengespräch
+Überarbeitung 	Einmalig 	1 Überarbeitung mit
+Begründung
+Mehrfach überarbeitet,
+Lernprozess sichtbar
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 9 of 12 --
+
+Lernvideo-Tutorial
+Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 8–15 Min. · Sozialform: Gruppe
+Eine Gruppe erklärt Schritt für Schritt einen fachlichen Prozess oder eine Methode als Tutorial. KI mit Logbuch
+erlaubt.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Fachliche
+Korrektheit
+Inhalt
+überwiegend
+fehlerhaft
+Grundaussagen
+korrekt
+Fachlich
+korrekt
+Präzise, keine
+Fehler
+Quellen sichtbar,
+vollständig korrekt
+Lernzieltransparenz 	Kein Lernziel
+erkennbar
+Lernziel
+angedeutet
+Lernziel
+benannt,
+verfolgt
+Lernziel
+explizit
+Zielerreichung am
+Ende überprüft
+Fachlicher Aufbau 	Kein roter
+Faden
+Einfaches vor
+Komplexem
+angedeutet
+Schrittweise
+Erklärung mit
+Beispielen
+Didaktisch
+durchdacht
+Wiederholung und
+Überprüfung
+eingebaut
+Technische
+Qualität
+Kaum nutzbar 	Nutzbar mit
+Mängeln
+Gute Qualität 	Klarer Ton
+und Bild
+Hohe Qualität,
+professionelle
+Aufbereitung
+KI-Logbuch (falls
+genutzt)
+Nicht
+vorhanden
+Nutzung
+benannt
+Dokumentiert
+und begründet
+Eigenleistung
+klar
+abgegrenzt
+Reflexiv: KI und
+Eigenleistung klar
+getrennt
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Inhalt 	1 klar abgegrenzter Schritt 	3–5 Schritte mit Erklärung 	Komplexer Prozess mit Varianten
+Länge 	8–10 Min. 	10–13 Min. 	13–15 Min.
+KI-Nutzung 	KI für Sprechtext 	KI für Recherche und Struktur 	KI für Qualitätsprüfung des
+Inhalts
+Didaktik 	Vorlesen eines Textes 	Erklären mit Beispielen 	Interaktive Elemente, Selbsttest
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 10 of 12 --
+
+Talkshow Simulation
+Mündlich-szenisch · KI-Nutzung: Nein · Dauer/Umfang: 10–20 Min. · Sozialform: Gruppe
+Die Gruppe übernimmt verschiedene Rollen und diskutiert ein fachliches Problem aus unterschiedlichen
+Perspektiven. Kein KI-Einsatz
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. 	3 Pkt. 	6 Pkt. 	9 Pkt. 	12 Pkt.
+Rollenverständnis 	Rolle nicht
+eingenommen
+Rolle
+ansatzweise
+erkennbar
+Rolle klar
+eingenommen
+Glaubhaft,
+fachorientiert
+Vertieft, konsequent
+durchgehalten
+Fachwissen in der
+Rolle
+Keine
+fachlichen
+Argumente
+Einzelne
+Fachargumente
+Korrekte
+Argumente aus
+Rollenperspektive
+Fachlich
+präzise
+Rollenperspektive
+konsequent fachlich
+begründet
+Diskussionsbeitrag 	Kaum beteiligt 	Gelegentlich
+beteiligt
+Aktiv und
+konstruktiv
+Führend und
+strukturierend
+Bringt Diskussion
+voran, alle einbezogen
+Perspektivwechsel
+(Reflexion)
+Keine
+Reflexion
+Oberflächlich 	Eigene Rolle und
+Gegenpositionen
+benannt
+Ansatzweise
+Reflexion in
+alle Rollen
+Perspektivwechsel in
+alle Rollen gelungen
+Kooperation in der
+Gruppe
+Dominierend
+oder passiv
+Teils
+konstruktiv
+Konstruktiv, auf
+andere
+eingegangen
+Ausgleichend 	Alle Mitglieder
+einbezogen,
+harmonisch
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Rollenpaket 	Einfache, klar beschriebene
+Rollen
+Rollen mit
+Interessenkonflikten
+Rollen mit komplexen Motivlagen
+Fachtiefe 	1 Fachargument pro Rolle 	2–3 belegte Argumente 	Komplexe Interessenlagen
+fachlich untermauert
+Reflexion 	Leitfragen nach Spiel 	Halboffene Reflexion 	Freie Metareflexion: Perspektive
+vs. Fakten
+Vorbereitung 	Rollenkarte mit Leitfragen 	Rollenkarte + Recherche 	Eigenständige Rollenentwicklung
+Feedback:
+Stärken: 	Entwicklungsfelder / Hinweise:
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+
+-- 11 of 12 --
+
+Fishbowl-Diskussion
+Mündlich-szenisch · KI-Nutzung: Nein · Dauer/Umfang: 20–30 Min. · Sozialform: Gruppe
+Strukturierte Diskussionsform: Ein innerer Kreis diskutiert, der äußere beobachtet. Rollen wechseln. Eigene
+Leistung – kein KI-Einsatz.
+Bewertungsraster
+Name: 	Fach: 	Fachlehrkraft:
+Lerngruppe: 	Schulform:
+Problemstellung:
+Kriterium 	0 Pkt. Nicht erfüllt 	3 Pkt. Ansätze 6 Pkt.
+Befriedigend 	9 Pkt. Gut 	12 Pkt. Sehr gut 	Pkt.
+Fachwissen (innen) 	Fragen nicht
+beantwortbar
+Einfache
+Beiträge
+Fachlich
+korrekte
+Beiträge
+Differenziert,
+argumentiert
+Souverän, alle
+Fragen kompetent
+beantwortet
+Diskussionsbeitrag 	Kein aktiver Beitrag 	Gelegentlich
+beteiligt
+Aktiv und
+konstruktiv
+Strukturierend und
+initiierend
+Gesprächsführung
+übernommen, alle
+einbezogen
+Beobachtungsqualität
+(außen)
+Keine
+Beobachtungsnotizen
+Oberflächliche
+Notizen
+Substanzielle
+Beobachtungen
+Fachlich fundierte
+Beobachtungen
+Kritisch, nuanciert,
+Konsequenzen
+formuliert
+Wechsel & Übergabe 	Wechsel
+unvorbereitet, Lücken
+Wechsel
+stattgefunden
+Wechsel gut
+vorbereitet
+Nahtlose Übergabe 	Aufbauend auf
+Vorherigem,
+Kontinuität
+sichtbar
+Reflexion (nach
+Diskussion)
+Keine Reflexion 	Oberflächlich 	Eigene
+Stärken/Lücken
+benannt
+Differenzierte
+Selbsteinschätzung
+Lernzuwachs und
+nächste Schritte
+formuliert
+Punkte: 	__________ /60 	Note: _____________
+Schulformspezifische Erwartungen
+Aspekt 	Hauptschule 	Realschule 	Gymnasium
+Fragetypen 	Geschlossene Fragen 	Offene Fragen 	Provokante / hypothetische
+Fragen
+Innenkreis-
+Aufgabe
+Kernfragen beantworten 	Diskussion moderieren 	Konsens erarbeiten oder Dissens
+begründen
+Außenkreis-
+Aufgabe
+Stichworte notieren 	Beobachtungsbogen ausfüllen 	Kritisches Feedback formulieren
+Wechsel 	1 festgelegter Wechsel 	2 Wechsel, selbstgesteuert 	Flexibler Wechsel nach Bedarf
+Feedback
+Datum / Unterschrift Lehrkraft:
+____________________________
+Kenntnisnahme Erziehungsberechtigter:
+____________________________
+Stärken: 	Entwicklungsfelder / Hinweise:
+
+-- 12 of 12 --
+
