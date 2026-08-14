@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Bewertungsraster – Präsentation</title>
+<script src="./doc-page.js"></script>
+<style>
+  body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; color: oklch(22% 0.01 60); }
+  table { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  th, td { border: 1px solid oklch(80% 0.01 60); padding: 6px 7px; text-align: left; vertical-align: top; }
+  th { background: oklch(94% 0.01 30); font-weight: 700; }
+  .crit-name { font-weight: 700; width: 13%; }
+  h1 { font-family: Georgia, serif; font-weight: 400; font-size: 30px; margin: 0 0 4px; }
+  .meta { font-size: 12px; color: oklch(45% 0.02 60); margin-bottom: 8px; }
+  .desc { font-size: 12px; margin-bottom: 18px; }
+  h2.section { font-family: Georgia, serif; font-weight: 400; font-size: 17px; color: oklch(60% 0.15 30); margin: 22px 0 10px; }
+  .fields { display: flex; flex-direction: column; gap: 6px; font-size: 11px; margin-bottom: 14px; }
+  .fields .row { display: flex; gap: 24px; }
+  .fields .row span { flex: 1; border-bottom: 1px solid oklch(75% 0.01 60); padding-bottom: 2px; }
+  .points { display: flex; justify-content: space-between; margin-top: 10px; font-size: 12px; font-weight: 700; }
+  .feedback { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 11px; margin-top: 8px; }
+  .feedback .box { border: 1px solid oklch(80% 0.01 60); border-radius: 4px; padding: 8px; min-height: 60px; }
+  .sig { font-size: 11px; margin-top: 18px; display: flex; flex-direction: column; gap: 14px; }
+</style>
+</head>
+<body>
+<doc-page size="a4" margin="18mm">
+  <h1>Präsentation</h1>
+  <div class="meta">Mündlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 8–12 Min. · Sozialform: Einzel oder Gruppe</div>
+  <div class="desc">Ein mündlicher Vortrag zu einem fachlichen Thema mit visueller Unterstützung (Folien, Plakat). KI-Nutzung möglich und wird mit KI-Logbuch nachgewiesen.</div>
+
+  <h2 class="section">Bewertungsraster</h2>
+  <div class="fields">
+    <div class="row"><span>Name:</span><span>Fach:</span><span>Fachlehrkraft:</span></div>
+    <div class="row"><span>Lerngruppe:</span><span>Schulform:</span></div>
+    <div class="row"><span>Thema der Präsentation:</span></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Kriterium</th><th>0 Pkt.</th><th>3 Pkt.</th><th>6 Pkt.</th><th>9 Pkt.</th><th>12 Pkt.</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit-name">Fachlicher Inhalt</td>
+        <td>Inhalt fehlerhaft / fehlt</td>
+        <td>Grundlagen vorhanden, Lücken</td>
+        <td>Fachlich korrekt, wesentliche Aspekte</td>
+        <td>Korrekt und vollständig</td>
+        <td>Vollständig, Zusammenhänge sichtbar</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Struktur &amp; Gliederung</td>
+        <td>Kein roter Faden erkennbar</td>
+        <td>Ansatz einer Struktur</td>
+        <td>Einleitung, Hauptteil, Schluss erkennbar</td>
+        <td>Klarer Aufbau, Übergänge gezielt</td>
+        <td>Durchdachte Dramaturgie, Publikum eingebunden</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Visuelle Unterstützung</td>
+        <td>Folien fehlen / unpassend</td>
+        <td>Folien vorhanden, wenig hilfreich</td>
+        <td>Unterstützt das Verständnis</td>
+        <td>Gezielt eingesetzt, klar gegliedert</td>
+        <td>Kreativ und präzise, Gestaltungsprinzipien bewusst</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Vortragsweise</td>
+        <td>Abgelesen, kein Blickkontakt</td>
+        <td>Teilweise frei gesprochen</td>
+        <td>Frei gesprochen, sicherer Auftritt</td>
+        <td>Souverän, Publikum einbezogen</td>
+        <td>Mitreißend, souveräne Rhetorik</td>
+      </tr>
+      <tr>
+        <td class="crit-name">KI-Logbuch (falls genutzt)</td>
+        <td>Nicht vorhanden</td>
+        <td>Nutzung benannt, keine Reflexion</td>
+        <td>Dokumentiert und begründet</td>
+        <td>Eigenleistung klar abgegrenzt</td>
+        <td>Kritisch reflektiert: Design vs. Inhalt getrennt</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="points"><span>Punkte: __________ /60</span><span>Note: _____________</span></div>
+
+  <h2 class="section">Schulformspezifische Erwartungen</h2>
+  <table>
+    <thead>
+      <tr><th>Aspekt</th><th>Hauptschule</th><th>Realschule</th><th>Gymnasium</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit-name">Fachtiefe</td>
+        <td>1 Kernaussage klar erklärt</td>
+        <td>2–3 Aspekte verbunden, Belege</td>
+        <td>Mehrperspektivisch, Argumente gewichtet</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Länge</td>
+        <td>5–7 Min.</td>
+        <td>7–10 Min.</td>
+        <td>10–12 Min., inhaltlich dicht</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Visualisierung</td>
+        <td>Einfache Folien / Plakat</td>
+        <td>Digitales Layout</td>
+        <td>Konzeptionelles Designdenken</td>
+      </tr>
+      <tr>
+        <td class="crit-name">KI-Nutzung</td>
+        <td>KI für Folienentwurf</td>
+        <td>KI-Output kritisch prüfen</td>
+        <td>KI gezielt einsetzen, Grenzen benennen</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">Feedback</h2>
+  <div class="feedback">
+    <div><div style="margin-bottom:4px;">Stärken:</div><div class="box"></div></div>
+    <div><div style="margin-bottom:4px;">Entwicklungsfelder / Hinweise:</div><div class="box"></div></div>
+  </div>
+
+  <div class="sig">
+    <div>Datum / Unterschrift Lehrkraft: ____________________________</div>
+    <div>Kenntnisnahme Erziehungsberechtigter: ____________________________</div>
+  </div>
+</doc-page>
+</body>
+</html>
