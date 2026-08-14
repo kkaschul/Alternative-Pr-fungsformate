@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+  body { margin: 0; }
+  .page :is(h1,h2,h3,p,li) { text-wrap: pretty; }
+</style>
+<script src="./doc-page.js"></script>
+</helmet>
+<style id="__om-edit-overrides"></style>
+<doc-page size="a4">
+  <section class="page" style="width:100%;height:100%;box-sizing:border-box;padding:64px 72px;background:oklch(98.5% 0.006 60);color:oklch(22% 0.01 60);font-family:Helvetica Neue, Arial, sans-serif;display:flex;flex-direction:column;border-top:6px solid oklch(58% 0.19 300);">
+    <div style="display:flex;flex-direction:column;align-items:center;gap:16px;border-bottom:3px solid oklch(58% 0.19 300);padding-bottom:20px;margin-bottom:36px;">
+      <h1 style="font-family:Georgia, serif;font-size:40px;font-weight:400;margin:0;letter-spacing:-0.5px;color:oklch(58% 0.19 300);">{{ pitch.title }}</h1>
+      <span style="font-size:16px;color:oklch(45% 0.02 60);">{{ pitch.occasion }}</span>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;flex:1;">
+      <div>
+        <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(58% 0.19 300);">Definition</h2>
+        <ul style="margin:0;padding-left:22px;font-size:18px;line-height:1.7;">
+          <sc-for list="{{ pitch.def }}" as="b" hint-placeholder-count="4">
+            <li>{{ b }}</li>
+          </sc-for>
+        </ul>
+      </div>
+      <div>
+        <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(58% 0.19 300);">{{ pitch.h2 }}</h2>
+        <ul style="margin:0 0 32px;padding-left:22px;font-size:18px;line-height:1.7;">
+          <sc-for list="{{ pitch.col2 }}" as="b" hint-placeholder-count="4">
+            <li>{{ b }}</li>
+          </sc-for>
+        </ul>
+        <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(58% 0.19 300);">{{ pitch.h3 }}</h2>
+        <ul style="margin:0;padding-left:22px;font-size:18px;line-height:1.7;">
+          <sc-for list="{{ pitch.col3 }}" as="b" hint-placeholder-count="4">
+            <li>{{ b }}</li>
+          </sc-for>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:36px;padding-top:20px;border-top:1px solid oklch(88% 0.01 60);font-size:14px;color:oklch(50% 0.02 60);">
+      Merksatz: {{ pitch.merksatz }}
+    </div>
+    <div style="margin-top:24px;padding-top:20px;border-top:1px solid oklch(88% 0.01 60);">
+      <div style="font-size:12px;color:oklch(45% 0.02 60);margin-bottom:6px;">{{ pitch.rubric.meta }}</div>
+      <div style="font-size:15px;line-height:1.6;max-width:640px;margin-bottom:16px;">{{ pitch.rubric.desc }}</div>
+      <a href="{{ pitch.rubric.pdf }}" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:12px 22px;border-radius:8px;background:oklch(58% 0.19 300);color:white;text-decoration:none;font-size:15px;font-weight:700;">Bewertungsraster herunterladen (PDF)</a>
+    </div>
+  </section>
+  <sc-for list="{{ items }}" as="item" hint-placeholder-count="3">
+    <section class="page" style="width:100%;height:100%;box-sizing:border-box;padding:64px 72px;background:oklch(98.5% 0.006 60);color:oklch(22% 0.01 60);font-family:Helvetica Neue, Arial, sans-serif;display:flex;flex-direction:column;">
+      <div style="display:flex;align-items:baseline;gap:16px;border-bottom:3px solid oklch(60% 0.15 30);padding-bottom:20px;margin-bottom:36px;">
+        <span style="font-family:Georgia, serif;font-size:22px;color:oklch(60% 0.15 30);">{{ item.num }}</span>
+        <h1 style="font-family:Georgia, serif;font-size:40px;font-weight:400;margin:0;letter-spacing:-0.5px;">{{ item.title }}</h1>
+        <span style="font-size:16px;color:oklch(45% 0.02 60);">Kurzdefinition für den Einstieg</span>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;flex:1;">
+        <div>
+          <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(60% 0.15 30);">Definition</h2>
+          <ul style="margin:0;padding-left:22px;font-size:18px;line-height:1.7;">
+            <sc-for list="{{ item.def }}" as="b" hint-placeholder-count="5">
+              <li>{{ b }}</li>
+            </sc-for>
+          </ul>
+        </div>
+
+        <div>
+          <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(60% 0.15 30);">{{ item.h2 }}</h2>
+          <ul style="margin:0 0 32px;padding-left:22px;font-size:18px;line-height:1.7;">
+            <sc-for list="{{ item.col2 }}" as="b" hint-placeholder-count="3">
+              <li>{{ b }}</li>
+            </sc-for>
+          </ul>
+
+          <h2 style="font-size:20px;font-weight:700;margin:0 0 16px;color:oklch(60% 0.15 30);">{{ item.h3 }}</h2>
+          <ul style="margin:0;padding-left:22px;font-size:18px;line-height:1.7;">
+            <sc-for list="{{ item.col3 }}" as="b" hint-placeholder-count="3">
+              <li>{{ b }}</li>
+            </sc-for>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:36px;padding-top:20px;border-top:1px solid oklch(88% 0.01 60);font-size:14px;color:oklch(50% 0.02 60);">
+        Merksatz: {{ item.merksatz }}
+      </div>
+    </section>
+
+    <section class="page" style="width:100%;height:100%;box-sizing:border-box;padding:64px 72px;background:oklch(98.5% 0.006 60);color:oklch(22% 0.01 60);font-family:Helvetica Neue, Arial, sans-serif;display:flex;flex-direction:column;">
+      <div style="display:flex;align-items:baseline;gap:16px;border-bottom:3px solid oklch(60% 0.15 30);padding-bottom:20px;margin-bottom:36px;">
+        <span style="font-family:Georgia, serif;font-size:22px;color:oklch(60% 0.15 30);">{{ item.num }}</span>
+        <h1 style="font-family:Georgia, serif;font-size:40px;font-weight:400;margin:0;letter-spacing:-0.5px;">{{ item.title }}</h1>
+      </div>
+      <div style="font-size:14px;color:oklch(45% 0.02 60);margin-bottom:24px;">{{ item.rubric.meta }}</div>
+      <div style="font-size:17px;line-height:1.6;max-width:640px;margin-bottom:40px;">{{ item.rubric.desc }}</div>
+      <a href="{{ item.rubric.pdf }}" target="_blank" style="display:inline-flex;align-items:center;gap:10px;align-self:flex-start;padding:16px 28px;border-radius:8px;background:oklch(60% 0.15 30);color:white;text-decoration:none;font-size:17px;font-weight:700;">
+        Bewertungsraster herunterladen (PDF)
+      </a>
+    </section>
+  </sc-for>
+</doc-page>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const pitch = { num: "", title: "Pitch", h2: "Aufbau", h3: "Merkmale",
+        def: ["sehr kurze, überzeugende Präsentation einer Idee oder eines Produkts", "dauert nur 30 bis 60 Sekunden – Zeit einer Fahrstuhlfahrt", "Ziel: Interesse wecken, nicht alles erklären", "klar, prägnant, auf den Punkt gebracht"],
+        col2: ["Aufhänger / Problem", "Idee / Lösung", "Nutzen", "Call to Action"],
+        col3: ["kurz", "frei gesprochen", "überzeugend", "ohne Fachjargon"],
+        merksatz: "Ein Pitch überzeugt in der Zeit einer Aufzugfahrt.",
+        occasion: "Verpflichtend beim Projektleuchten/Marktplatz",
+        rubric: { pdf: "raster/03-elevator-pitch.pdf", meta: "Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 3–5 Min. · Sozialform: Einzel",
+          desc: "Ein prägnanter Kurzvortrag, der eine Lösung oder Idee überzeugend und komprimiert darstellt. Eigene Leistung – kein KI-Einsatz während der Prüfung.",
+          criteria: [
+            { name: "Fachliche Substanz", l0: "Kaum Fachwissen erkennbar", l3: "Grundkenntnisse vorhanden", l6: "Fachlich korrekt und nachvollziehbar", l9: "Korrekt, Fachwissen präzise eingesetzt", l12: "Überzeugend argumentiert, differenziert" },
+            { name: "Aufbau & Stringenz", l0: "Kein roter Faden", l3: "Ansatz vorhanden", l6: "Logischer Aufbau", l9: "Verdichtet auf das Wesentliche", l12: "Perfekter Spannungsbogen, Publikum einbezogen" },
+            { name: "Auftritt & Wirkung", l0: "Sehr unsicher, kein Blickkontakt", l3: "Teilweise sicher", l6: "Sicherer Auftritt, Gestik angemessen", l9: "Souverän, überzeugend", l12: "Mitreißend, Publikum aktiv einbezogen" },
+            { name: "Zeitmanagement", l0: "Deutlich über-/unterzogen", l3: "Näherungsweise passend", l6: "Im Zeitrahmen", l9: "Gut getaktet", l12: "Perfekt – jede Sekunde genutzt" },
+            { name: "Fachgespräch (Gate 2)", l0: "Kernaussagen nicht erklärbar", l3: "Teils erklärbar", l6: "Fachfragen kompetent beantwortet", l9: "Reflektiert, auf Rückfragen eingegangen", l12: "Differenziert, Querverbindungen hergestellt" },
+          ],
+          school: [
+            { aspect: "Sprachliche Anforderung", hs: "Verständlich auf Alltagsniveau", rs: "Fachbegriffe korrekt eingesetzt", gym: "Präzise Fachsprache, Rhetorik" },
+            { aspect: "Inhalt", hs: "1 Lösung benennen und begründen", rs: "Vor- und Nachteile abwägen", gym: "Komplexität benennen, Zielgruppe adressieren" },
+            { aspect: "Fachgespräch", hs: "3 vorgegebene Leitfragen", rs: "2 offene Fragen", gym: "Freies Expertengespräch" },
+            { aspect: "KI-Vorbereitung", hs: "Keine KI-Nutzung", rs: "Recherche mit KI erlaubt (kein Logbuch)", gym: "Keine KI – Eigenleistung im Vordergrund" },
+          ] } };
+    const items = [
+      { num: "01", title: "Collage", h2: "Aufbau", h3: "Merkmale",
+        def: ["künstlerische Technik: unterschiedliche Materialien werden zu einem neuen Gesamtbild zusammengefügt","kombiniert vorhandenes Material – Bilder, Texte, Fundstücke – auf neue Weise","kann ein Thema visuell verdichten oder mehrere Perspektiven nebeneinanderstellen"],
+        col2: ["Materialsammlung: Bilder, Texte, Objekte","Anordnung und Komposition auf einer Fläche","Verkleben und Fixieren des Ergebnisses"],
+        col3: ["kombiniert statt zeichnet","unterschiedliche Materialien und Texturen","oft überraschende Bezüge zwischen Elementen"],
+        merksatz: "Eine Collage erzählt durch die Kombination vorhandener Teile eine neue Geschichte.",
+        rubric: { pdf: "raster/12-collage.pdf", meta: "Visuell · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: DIN A2/A3 · Sozialform: Gruppe oder Einzel",
+          desc: "Schülerinnen und Schüler setzen ein fachliches Thema als Collage aus unterschiedlichen Materialien um und erläutern ihre Gestaltung in einem kurzen Gespräch. KI optional, mit Logbuch.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fehlerhaft / fehlt", l3: "Grundaussagen vorhanden", l6: "Fachlich korrekt, wesentliche Aspekte", l9: "Vollständig, differenziert", l12: "Präzise, Zusammenhänge sichtbar gemacht" },
+            { name: "Gestaltung & Komposition", l0: "Unstrukturiert, kaum lesbar", l3: "Material vorhanden, kein Konzept", l6: "Übersichtlich, bewusste Anordnung", l9: "Gezielt komponiert, Bezüge erkennbar", l12: "Kreativ und präzise, Materialwahl bewusst eingesetzt" },
+            { name: "Materialauswahl & Umsetzung", l0: "Materialien beliebig / unpassend", l3: "Wenig durchdachte Auswahl", l6: "Passende Materialien gewählt", l9: "Materialien gezielt kombiniert", l12: "Originelle, bewusste Materialsprache" },
+            { name: "Erläuterung / Gespräch", l0: "Inhalt nicht erläuterbar", l3: "Grundlegendes erläutert", l6: "Sicher erläutert, Fragen beantwortet", l9: "Differenziert erklärt", l12: "Sicher auf alle Nachfragen eingegangen" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Kritisch reflektiert: Idee vs. KI-Beitrag getrennt" },
+          ],
+          school: [
+            { aspect: "Informationsdichte", hs: "3–5 Kernaussagen", rs: "5–8 Aspekte verbunden", gym: "Komplex vernetzte Inhalte" },
+            { aspect: "Gestaltung", hs: "Einfache Materialcollage", rs: "Bewusste Bildsprache", gym: "Konzeptionelles Designdenken" },
+            { aspect: "Gespräch", hs: "3 vorgegebene Fragen", rs: "Offene Fragen zur Collage", gym: "Kritische Expertenbefragung" },
+            { aspect: "KI-Nutzung", hs: "Bildrecherche", rs: "Ideenfindung, kritisch prüfen", gym: "KI für Konzeptentwicklung, Verantwortung klar" },
+          ] } },
+      { num: "02", title: "Concept Map + Fachgespräch", h2: "Aufbau der Concept Map", h3: "Fachgespräch",
+        def: ["grafische Darstellung von Begriffen und ihren Beziehungen","dient als Grundlage für ein mündliches Fachgespräch","zeigt Zusammenhänge, Ober- und Unterbegriffe, Ursache-Wirkung"],
+        col2: ["zentrale Begriffe","Verbindungslinien mit Beschriftung","hierarchische oder vernetzte Struktur"],
+        col3: ["Erläuterung der Map","Rückfragen","Vertiefung einzelner Zusammenhänge"],
+        merksatz: "Die Concept Map macht Denken sichtbar, das Fachgespräch prüft das Verständnis.",
+        rubric: { pdf: "raster/08-concept-map-fachgespraech.pdf", meta: "Mündlich-visuell · KI-Nutzung: Nein · Dauer/Umfang: 10–15 Min. · Sozialform: Einzel",
+          desc: "Schülerinnen und Schüler erstellen eine Concept Map zu einem Fachgebiet und erläutern diese im Einzelgespräch. Kein KI-Einsatz.",
+          criteria: [
+            { name: "Vollständigkeit", l0: "Wesentliche Begriffe fehlen", l3: "Grundbegriffe vorhanden", l6: "Zentrale Begriffe und Verbindungen", l9: "Vollständig, differenziert", l12: "Vollständig, Teilaspekte vernetzt" },
+            { name: "Vernetzungsqualität", l0: "Keine sinnvollen Verbindungen", l3: "Einzelne Verbindungen benannt", l6: "Verbindungen fachlich korrekt beschriftet", l9: "Hierarchisch und lateral vernetzt", l12: "Beziehungstypen differenziert benannt" },
+            { name: "Mündliche Erläuterung", l0: "Kann Concept Map nicht erklären", l3: "Erklärt einzelne Teile", l6: "Aufbau nachvollziehbar erklärt", l9: "Zeigt Denkwege auf", l12: "Erklärt Entscheidungen beim Aufbau" },
+            { name: "Fachgespräch – Tiefe", l0: "Fragen nicht beantwortbar", l3: "Einzelne Fragen beantwortet", l6: "Fachfragen sicher beantwortet", l9: "Querverbindungen hergestellt", l12: "Differenziert auf alle Rückfragen eingegangen" },
+            { name: "Überarbeitungsprozess", l0: "Keine Entwicklung sichtbar", l3: "Eine Überarbeitungsspur vorhanden", l6: "Lernentwicklung erkennbar", l9: "Mehrfache Überarbeitungen", l12: "Überarbeitungen dokumentiert und begründet" },
+          ],
+          school: [
+            { aspect: "Umfang", hs: "6–10 Begriffe", rs: "10–15 Begriffe", gym: "15+ Begriffe mit Teilnetzen" },
+            { aspect: "Verbindungstiefe", hs: "Verbindungen benannt", rs: "Verbindungsart beschriftet", gym: "Richtung und Art differenziert" },
+            { aspect: "Gesprächsführung", hs: "Leitfragengespräch", rs: "Teils offenes Gespräch", gym: "Freies Expertengespräch" },
+            { aspect: "Überarbeitung", hs: "Einmalig", rs: "1 Überarbeitung mit Begründung", gym: "Mehrfach überarbeitet, Lernprozess sichtbar" },
+          ] } },
+      { num: "03", title: "Elevator Pitch", h2: "Aufbau", h3: "Merkmale",
+        def: ["sehr kurze, überzeugende Präsentation einer Idee oder eines Produkts","dauert nur 30 bis 60 Sekunden – Zeit einer Fahrstuhlfahrt","Ziel: Interesse wecken, nicht alles erklären","klar, prägnant, auf den Punkt gebracht"],
+        col2: ["Aufhänger / Problem","Idee / Lösung","Nutzen","Call to Action"],
+        col3: ["kurz","frei gesprochen","überzeugend","ohne Fachjargon"],
+        merksatz: "Ein Elevator Pitch überzeugt in der Zeit einer Aufzugfahrt.",
+        rubric: { pdf: "raster/03-elevator-pitch.pdf", meta: "Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 3–5 Min. · Sozialform: Einzel",
+          desc: "Ein prägnanter Kurzvortrag, der eine Lösung oder Idee überzeugend und komprimiert darstellt. Eigene Leistung – kein KI-Einsatz während der Prüfung.",
+          criteria: [
+            { name: "Fachliche Substanz", l0: "Kaum Fachwissen erkennbar", l3: "Grundkenntnisse vorhanden", l6: "Fachlich korrekt und nachvollziehbar", l9: "Korrekt, Fachwissen präzise eingesetzt", l12: "Überzeugend argumentiert, differenziert" },
+            { name: "Aufbau & Stringenz", l0: "Kein roter Faden", l3: "Ansatz vorhanden", l6: "Logischer Aufbau", l9: "Verdichtet auf das Wesentliche", l12: "Perfekter Spannungsbogen, Publikum einbezogen" },
+            { name: "Auftritt & Wirkung", l0: "Sehr unsicher, kein Blickkontakt", l3: "Teilweise sicher", l6: "Sicherer Auftritt, Gestik angemessen", l9: "Souverän, überzeugend", l12: "Mitreißend, Publikum aktiv einbezogen" },
+            { name: "Zeitmanagement", l0: "Deutlich über-/unterzogen", l3: "Näherungsweise passend", l6: "Im Zeitrahmen", l9: "Gut getaktet", l12: "Perfekt – jede Sekunde genutzt" },
+            { name: "Fachgespräch (Gate 2)", l0: "Kernaussagen nicht erklärbar", l3: "Teils erklärbar", l6: "Fachfragen kompetent beantwortet", l9: "Reflektiert, auf Rückfragen eingegangen", l12: "Differenziert, Querverbindungen hergestellt" },
+          ],
+          school: [
+            { aspect: "Sprachliche Anforderung", hs: "Verständlich auf Alltagsniveau", rs: "Fachbegriffe korrekt eingesetzt", gym: "Präzise Fachsprache, Rhetorik" },
+            { aspect: "Inhalt", hs: "1 Lösung benennen und begründen", rs: "Vor- und Nachteile abwägen", gym: "Komplexität benennen, Zielgruppe adressieren" },
+            { aspect: "Fachgespräch", hs: "3 vorgegebene Leitfragen", rs: "2 offene Fragen", gym: "Freies Expertengespräch" },
+            { aspect: "KI-Vorbereitung", hs: "Keine KI-Nutzung", rs: "Recherche mit KI erlaubt (kein Logbuch)", gym: "Keine KI – Eigenleistung im Vordergrund" },
+          ] } },
+      { num: "04", title: "Erklärvideo", h2: "Aufbau", h3: "Typische Mittel",
+        def: ["kurzes Video, das ein Thema oder Konzept verständlich erklärt","meist mit Sprecherstimme, Bildern, Animationen oder Diagrammen","gedacht für Selbststudium oder Wiederholung","meist 2 bis 8 Minuten lang","kann live gefilmt oder als Bildschirmaufnahme entstehen"],
+        col2: ["Einstieg: Problem oder Frage","Erklärung Schritt für Schritt","Zusammenfassung / Fazit"],
+        col3: ["Bildschirmaufnahme (Screencast)","Zeichnungen / Legetechnik","Animation","Text-Einblendungen","Musik / Soundeffekte"],
+        merksatz: "Ein Erklärvideo zeigt in kurzer Zeit, wie etwas funktioniert oder warum etwas so ist.",
+        rubric: { pdf: "raster/02-erklaervideo.pdf", meta: "Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 5–10 Min. · Sozialform: Gruppe oder Einzel",
+          desc: "Eine visuelle Erklärung eines Begriffs oder Prozesses als Screencast, gezeichnetes Video oder Stop-Motion. KI-Nutzung möglich und wird mit KI-Logbuch nachgewiesen.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Inhalt fehlerhaft / fehlt", l3: "Grundlagen vorhanden, Lücken", l6: "Fachlich korrekt, wesentliche Aspekte", l9: "Korrekt und vollständig", l12: "Vollständig, Zusammenhänge sichtbar" },
+            { name: "Visualisierung", l0: "Bilder unpassend / fehlen", l3: "Visualisierung vorhanden, wenig hilfreich", l6: "Unterstützt das Verständnis", l9: "Gezielt eingesetzt, klar gegliedert", l12: "Kreativ und präzise, Gestaltungsprinzipien bewusst" },
+            { name: "Verständlichkeit", l0: "Erklärung unverständlich", l3: "Teils nachvollziehbar", l6: "Verständlich, angepasstes Tempo", l9: "Schülerorientiert, Vorwissen berücksichtigt", l12: "Fachlich durchdacht, roter Faden erkennbar" },
+            { name: "Technische Qualität", l0: "Ton/Bild kaum nutzbar", l3: "Technisch ausreichend", l6: "Gute Qualität", l9: "Klarer Ton, stabile Bilder", l12: "Professionelle Aufbereitung" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt, keine Reflexion", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Kritisch reflektiert: Design vs. Inhalt getrennt" },
+          ],
+          school: [
+            { aspect: "Inhaltskomplexität", hs: "1 Prozess / Begriff erklären", rs: "Zusammenhänge herstellen", gym: "Systemische Einordnung, Kritik" },
+            { aspect: "Visualisierung", hs: "Bildkarten / einfache Grafiken", rs: "Digitales Layout / eigene Zeichnungen", gym: "Konzeptionelles Designdenken" },
+            { aspect: "Länge", hs: "5–7 Min.", rs: "7–10 Min.", gym: "10 Min., inhaltlich dicht" },
+            { aspect: "KI-Nutzung", hs: "KI für Textentwürfe, Übernahmen zeigen", rs: "KI für Recherche und Skript, überarbeiten", gym: "KI gezielt einsetzen, Grenzen benennen" },
+          ] } },
+      { num: "05", title: "Fishbowl-Diskussion", h2: "Ablauf", h3: "Rollen",
+        def: ["Diskussionsform mit innerem und äußerem Kreis","im Innenkreis diskutieren wenige aktiv, der Außenkreis hört zu und beobachtet","ein freier Stuhl im Innenkreis erlaubt Zuhörenden zum Einsteigen"],
+        col2: ["Innenkreis diskutiert das Thema","Außenkreis beobachtet und macht Notizen","Wechsel über den freien Stuhl möglich"],
+        col3: ["Diskutierende (Innenkreis)","Beobachtende (Außenkreis)","ggf. Moderation"],
+        merksatz: "Im Fishbowl kann jeder von außen jederzeit nach innen wechseln.",
+        rubric: { pdf: "raster/11-fishbowl-diskussion.pdf", meta: "Mündlich-szenisch · KI-Nutzung: Nein · Dauer/Umfang: 20–30 Min. · Sozialform: Gruppe",
+          desc: "Strukturierte Diskussionsform: Ein innerer Kreis diskutiert, der äußere beobachtet. Rollen wechseln. Eigene Leistung – kein KI-Einsatz.",
+          criteria: [
+            { name: "Fachwissen (innen)", l0: "Fragen nicht beantwortbar", l3: "Einfache Beiträge", l6: "Fachlich korrekte Beiträge", l9: "Differenziert, argumentiert", l12: "Souverän, alle Fragen kompetent beantwortet" },
+            { name: "Diskussionsbeitrag", l0: "Kein aktiver Beitrag", l3: "Gelegentlich beteiligt", l6: "Aktiv und konstruktiv", l9: "Strukturierend und initiierend", l12: "Gesprächsführung übernommen, alle einbezogen" },
+            { name: "Beobachtungsqualität (außen)", l0: "Keine Beobachtungsnotizen", l3: "Oberflächliche Notizen", l6: "Substanzielle Beobachtungen", l9: "Fachlich fundierte Beobachtungen", l12: "Kritisch, nuanciert, Konsequenzen formuliert" },
+            { name: "Wechsel & Übergabe", l0: "Wechsel unvorbereitet, Lücken", l3: "Wechsel stattgefunden", l6: "Wechsel gut vorbereitet", l9: "Nahtlose Übergabe", l12: "Aufbauend auf Vorherigem, Kontinuität sichtbar" },
+            { name: "Reflexion (nach Diskussion)", l0: "Keine Reflexion", l3: "Oberflächlich", l6: "Eigene Stärken/Lücken benannt", l9: "Differenzierte Selbsteinschätzung", l12: "Lernzuwachs und nächste Schritte formuliert" },
+          ],
+          school: [
+            { aspect: "Fragetypen", hs: "Geschlossene Fragen", rs: "Offene Fragen", gym: "Provokante / hypothetische Fragen" },
+            { aspect: "Innenkreis-Aufgabe", hs: "Kernfragen beantworten", rs: "Diskussion moderieren", gym: "Konsens erarbeiten oder Dissens begründen" },
+            { aspect: "Außenkreis-Aufgabe", hs: "Stichworte notieren", rs: "Beobachtungsbogen ausfüllen", gym: "Kritisches Feedback formulieren" },
+            { aspect: "Wechsel", hs: "1 festgelegter Wechsel", rs: "2 Wechsel, selbstgesteuert", gym: "Flexibler Wechsel nach Bedarf" },
+          ] } },
+      { num: "06", title: "Hot Seat-Diskussion", h2: "Ablauf", h3: "Regeln",
+        def: ["eine Person sitzt im „heißen Stuhl“ und wird von der Gruppe befragt","meist in einer Rolle: Experte, historische Figur, kontroverse Position","Ziel: eine Perspektive vertreten und verteidigen","fördert Argumentation und Spontanität"],
+        col2: ["Vorbereitung der Rolle","Befragung durch die Gruppe","Reflexion im Anschluss"],
+        col3: ["sachlich bleiben","Rolle konsequent vertreten","Fragen begründen"],
+        merksatz: "Im Hot Seat steht eine Position im Kreuzfeuer der Fragen.",
+        rubric: { pdf: "raster/04-hot-seat-diskussion.pdf", meta: "Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 15–20 Min. · Sozialform: Gruppe",
+          desc: "Eine Person sitzt im heißen Stuhl und wird von der Gruppe zu einer Rolle oder Position befragt. Eigene Leistung – kein KI-Einsatz während der Prüfung.",
+          criteria: [
+            { name: "Fachwissen (Hot Seat)", l0: "Fragen nicht beantwortbar", l3: "Einzelne Fragen beantwortet", l6: "Meiste Fragen korrekt beantwortet", l9: "Fachlich sicher, differenziert", l12: "Souverän, verknüpfend, auf alle Fragen eingegangen" },
+            { name: "Fragequalität (Fragende)", l0: "Fragen oberflächlich / nicht fachbezogen", l3: "Fachbezug vorhanden, wenig Tiefe", l6: "Gezielte Fachfragen", l9: "Kritische, vertiefende Fragen", l12: "Strategisch hinterfragend, Diskurs angeregt" },
+            { name: "Argumentation", l0: "Kaum Begründungen", l3: "Ansatzweise begründet", l6: "Gut begründet", l9: "Belege eingebracht, kohärent", l12: "Stringent, Gegenargumente aufgegriffen" },
+            { name: "Diskussionsbeitrag", l0: "Keine Beteiligung", l3: "Gelegentlich beteiligt", l6: "Aktiv, konstruktiv", l9: "Strukturierend, initiierend", l12: "Leitet die Diskussion, alle einbezogen" },
+            { name: "Reflexion (nach Diskussion)", l0: "Keine Reflexion", l3: "Oberflächliche Rückmeldung", l6: "Eigene Stärken/Lücken benannt", l9: "Differenzierte Selbsteinschätzung", l12: "Lernziele formuliert, Konsequenzen gezogen" },
+          ],
+          school: [
+            { aspect: "Fragetypen", hs: "Wer-Was-Wann (geschlossen)", rs: "Wie-Warum-Fragen", gym: "Inwiefern-, Folgen-Fragen (offen)" },
+            { aspect: "Zeitdruck", hs: "Bedenkzeit erlaubt", rs: "Kurze Bedenkzeit", gym: "Ohne Bedenkzeit" },
+            { aspect: "Vorbereitung", hs: "Fragekarten werden gestellt", rs: "Fragen selbst entwickeln", gym: "Spontane Nachfragen, keine Vorbereitung" },
+            { aspect: "Reflexion", hs: "Leitfragen vorgegeben", rs: "Teiloffene Reflexion", gym: "Freie Metareflexion" },
+          ] } },
+      { num: "07", title: "Infografik / Poster", h2: "Aufbau", h3: "Gestaltungsprinzipien",
+        def: ["visuelle Darstellung von Informationen oder Daten","kombiniert Text, Bilder, Diagramme, Icons","reduziert komplexe Inhalte auf das Wesentliche","ermöglicht einen schnellen Überblick auf einen Blick"],
+        col2: ["Titel / Kernaussage","Hauptinformation: Zahlen, Fakten, Prozess","visuelle Elemente: Diagramme, Icons, Farben"],
+        col3: ["klare Hierarchie","wenig Text","konsistente Farben und Symbole","erkennbarer Lesefluss"],
+        merksatz: "Eine Infografik erklärt auf einen Blick, was ein Fließtext in vielen Sätzen bräuchte.",
+        rubric: { pdf: "raster/07-infografik-poster.pdf", meta: "Visuell · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: DIN A1/A2 · Sozialform: Gruppe oder Einzel",
+          desc: "Visuelle Aufbereitung fachlicher Zusammenhänge, ergänzt durch ein kurzes Standdiskussionsgespräch. KI-Nutzung wird explizit mitbewertet.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fehlerhaft / fehlt", l3: "Grundaussagen vorhanden", l6: "Fachlich korrekt, wesentliche Aspekte", l9: "Vollständig, differenziert", l12: "Präzise, Zusammenhänge sichtbar gemacht" },
+            { name: "Visualisierung & Design", l0: "Unstrukturiert, kaum lesbar", l3: "Lesbar, kein visuelles Konzept", l6: "Übersichtlich, Hierarchie erkennbar", l9: "Professionell, Gestaltungsprinzipien", l12: "Gezielt und kreativ eingesetzt" },
+            { name: "Informationsreduktion", l0: "Viel zu viel/wenig Text", l3: "Teilweise in Stichpunkten", l6: "Stichpunktartig notiert", l9: "Sinnvolle Stichpunkte mit Belegen", l12: "Sinnvolle Stichpunkte mit Belegen und erkennbaren Quellen" },
+            { name: "Standdiskussion / Gespräch", l0: "Inhalt nicht erläuterbar", l3: "Grundlegendes erläutert", l6: "Sicher erläutert, Fragen beantwortet", l9: "Differenziert erklärt", l12: "Sicher auf alle Nachfragen eingegangen" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Kein Nachweis", l3: "Nutzung benannt", l6: "Eigenleistung abgegrenzt", l9: "Begründete Entscheidungen", l12: "Kritisch: Design vs. Inhalt getrennt bewertet" },
+          ],
+          school: [
+            { aspect: "Informationsdichte", hs: "3–5 Kernaussagen", rs: "5–8 Informationen mit Quellen", gym: "Komplex vernetzte Informationen" },
+            { aspect: "Gestaltung", hs: "Handgezeichnet / einfache App", rs: "Digitales Layout", gym: "Konzeptionelles Designdenken" },
+            { aspect: "Gespräch", hs: "3 vorgegebene Fragen", rs: "Offene Fragen zum Poster", gym: "Kritische Expertenbefragung" },
+            { aspect: "KI-Nutzung", hs: "Bildrecherche / Textentwurf", rs: "Layout-Ideen, kritisch prüfen", gym: "KI für Daten-Visualisierung, Verantwortung klar" },
+          ] } },
+      { num: "08", title: "Lapbook", h2: "Aufbau", h3: "Merkmale",
+        def: ["gefaltetes Papierheft mit aufklappbaren Taschen, Klappen und Minibüchern zu einem Thema","kombiniert Sammeln, Gestalten und Präsentieren von Inhalten","entsteht meist im Laufe einer längeren Recherche- oder Lernphase"],
+        col2: ["Grundgerüst falten: Faltmappe","Elemente gestalten: Klappen, Taschen, Minibücher","Inhalte einordnen und beschriften"],
+        col3: ["interaktiv zum Aufklappen","kombiniert Text und Bild","individuell gestaltbar"],
+        merksatz: "Ein Lapbook macht Wissen zum Anfassen und Aufklappen.",
+        rubric: { pdf: "raster/14-lapbook.pdf", meta: "Schriftlich-visuell · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: DIN A3 gefaltet · Sozialform: Einzel oder Gruppe",
+          desc: "Schülerinnen und Schüler dokumentieren ein fachliches Thema in einem Lapbook mit Klappen, Taschen und Minibüchern. KI optional, mit Logbuch.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fehlerhaft / fehlt", l3: "Grundaussagen vorhanden", l6: "Fachlich korrekt, wesentliche Aspekte", l9: "Vollständig, differenziert", l12: "Präzise, Zusammenhänge sichtbar gemacht" },
+            { name: "Struktur & Gliederung", l0: "Kein erkennbares Ordnungsprinzip", l3: "Ansatz einer Gliederung", l6: "Nachvollziehbare Gliederung", l9: "Klar strukturiert, Elemente sinnvoll verknüpft", l12: "Durchdachtes Gesamtkonzept" },
+            { name: "Gestaltung & Handwerk", l0: "Unsauber, kaum lesbar", l3: "Grundlegend sauber", l6: "Sauber gearbeitet", l9: "Sorgfältig und ansprechend", l12: "Kreativ und professionell umgesetzt" },
+            { name: "Informationsreduktion", l0: "Viel zu viel/zu wenig Text", l3: "Teilweise in Stichpunkten", l6: "Stichpunktartig notiert", l9: "Sinnvolle Stichpunkte mit Belegen", l12: "Sinnvolle Stichpunkte mit Belegen und Quellen" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Kritisch reflektiert: Design vs. Inhalt getrennt" },
+          ],
+          school: [
+            { aspect: "Informationsdichte", hs: "3–5 Kernaussagen", rs: "5–8 Informationen mit Quellen", gym: "Komplex vernetzte Informationen" },
+            { aspect: "Gestaltung", hs: "Einfache Klappen/Taschen", rs: "Durchdachtes Faltkonzept", gym: "Konzeptionelles Designdenken" },
+            { aspect: "Umfang", hs: "4–6 Elemente (Klappen/Taschen)", rs: "6–10 Elemente", gym: "10+ Elemente, vernetzt" },
+            { aspect: "KI-Nutzung", hs: "Bildrecherche/Textentwurf", rs: "Layout-Ideen, kritisch prüfen", gym: "KI für Strukturierung, Verantwortung klar" },
+          ] } },
+      { num: "09", title: "Lernvideo-Tutorial", h2: "Aufbau", h3: "Merkmale",
+        def: ["Video, das Schritt für Schritt zeigt, wie man etwas macht","praxisorientiert, oft mit Bildschirmaufnahme oder Kamera","zum Nachmachen gedacht"],
+        col2: ["Ziel / Ergebnis vorstellen","Schritt-für-Schritt-Anleitung","Ergebnis / Zusammenfassung"],
+        col3: ["klare Sprache","sichtbare Handlungsschritte","Tempo zum Mitmachen"],
+        merksatz: "Ein Tutorial führt Schritt für Schritt zum Ergebnis.",
+        rubric: { pdf: "raster/09-lernvideo-tutorial.pdf", meta: "Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 8–15 Min. · Sozialform: Gruppe",
+          desc: "Eine Gruppe erklärt Schritt für Schritt einen fachlichen Prozess oder eine Methode als Tutorial. KI mit Logbuch erlaubt.",
+          criteria: [
+            { name: "Fachliche Korrektheit", l0: "Inhalt überwiegend fehlerhaft", l3: "Grundaussagen korrekt", l6: "Fachlich korrekt", l9: "Präzise, keine Fehler", l12: "Quellen sichtbar, vollständig korrekt" },
+            { name: "Lernzieltransparenz", l0: "Kein Lernziel erkennbar", l3: "Lernziel angedeutet", l6: "Lernziel benannt, verfolgt", l9: "Lernziel explizit", l12: "Zielerreichung am Ende überprüft" },
+            { name: "Fachlicher Aufbau", l0: "Kein roter Faden", l3: "Einfaches vor Komplexem angedeutet", l6: "Schrittweise Erklärung mit Beispielen", l9: "Didaktisch durchdacht", l12: "Wiederholung und Überprüfung eingebaut" },
+            { name: "Technische Qualität", l0: "Kaum nutzbar", l3: "Nutzbar mit Mängeln", l6: "Gute Qualität", l9: "Klarer Ton und Bild", l12: "Hohe Qualität, professionelle Aufbereitung" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Reflexiv: KI und Eigenleistung klar getrennt" },
+          ],
+          school: [
+            { aspect: "Inhalt", hs: "1 klar abgegrenzter Schritt", rs: "3–5 Schritte mit Erklärung", gym: "Komplexer Prozess mit Varianten" },
+            { aspect: "Länge", hs: "8–10 Min.", rs: "10–13 Min.", gym: "13–15 Min." },
+            { aspect: "KI-Nutzung", hs: "KI für Sprechtext", rs: "KI für Recherche und Struktur", gym: "KI für Qualitätsprüfung des Inhalts" },
+            { aspect: "Didaktik", hs: "Vorlesen eines Textes", rs: "Erklären mit Beispielen", gym: "Interaktive Elemente, Selbsttest" },
+          ] } },
+      { num: "10", title: "Modell", h2: "Aufbau", h3: "Merkmale",
+        def: ["dreidimensionale, vereinfachte Nachbildung eines Objekts, Systems oder Sachverhalts","macht Aufbau, Funktion oder Größenverhältnisse anschaulich","reduziert die Wirklichkeit auf wesentliche Merkmale"],
+        col2: ["Planung: Maßstab, Material, Aufbau","Bau des Modells","Erläuterung von Funktion und Zweck"],
+        col3: ["maßstabsgetreu oder vereinfacht","greifbar und anschaulich","zeigt Struktur oder Funktionsweise"],
+        merksatz: "Ein Modell macht durch Vereinfachung sichtbar, was in der Wirklichkeit oft verborgen bleibt.",
+        rubric: { pdf: "raster/13-modell.pdf", meta: "Gegenständlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: nach Absprache · Sozialform: Gruppe oder Einzel",
+          desc: "Schülerinnen und Schüler bauen ein Modell zu einem fachlichen Sachverhalt und erläutern Aufbau und Funktion im Gespräch. KI optional (z. B. Recherche), mit Logbuch.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fehlerhaft / fehlt", l3: "Grundaussagen vorhanden", l6: "Fachlich korrekt umgesetzt", l9: "Vollständig, differenziert", l12: "Präzise, Zusammenhänge im Modell sichtbar" },
+            { name: "Umsetzung & Funktionalität", l0: "Nicht funktionsfähig / unklar", l3: "Grundfunktion erkennbar", l6: "Funktioniert, Maßstab stimmig", l9: "Sorgfältig gebaut, funktional", l12: "Präzise, durchdachte technische Lösung" },
+            { name: "Gestaltung & Sorgfalt", l0: "Unsauber, wenig durchdacht", l3: "Grundlegend sauber", l6: "Sauber gearbeitet", l9: "Sorgfältig und ansprechend", l12: "Professionelle Verarbeitung" },
+            { name: "Erläuterung / Gespräch", l0: "Aufbau/Funktion nicht erläuterbar", l3: "Grundlegendes erläutert", l6: "Sicher erläutert, Fragen beantwortet", l9: "Differenziert erklärt", l12: "Sicher auf alle Nachfragen eingegangen" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Kritisch reflektiert: Planung vs. KI-Beitrag getrennt" },
+          ],
+          school: [
+            { aspect: "Komplexität", hs: "Ein Bauteil / Prinzip", rs: "Mehrere Bauteile verbunden", gym: "Komplexes System mit Wechselwirkungen" },
+            { aspect: "Maßstab / Genauigkeit", hs: "Grobe Annäherung", rs: "Maßstabsgetreu", gym: "Präzise, begründete Maßstabswahl" },
+            { aspect: "Gespräch", hs: "3 vorgegebene Fragen", rs: "Offene Fragen zum Modell", gym: "Kritische Expertenbefragung" },
+            { aspect: "KI-Nutzung", hs: "Materialrecherche", rs: "Konstruktionsideen prüfen", gym: "KI für Berechnungen/Optimierung, Verantwortung klar" },
+          ] } },
+      { num: "11", title: "Offener Brief", h2: "Aufbau", h3: "Merkmale",
+        def: ["Brief an eine bestimmte Person oder Institution, aber bewusst veröffentlicht","behandelt ein Thema von öffentlichem Interesse","vertritt eine klare Position","nutzt Argumente und persönliche Anrede"],
+        col2: ["Anrede","Anlass / Problem","Argumentation","Forderung / Appell","Schlussformel"],
+        col3: ["sachlich-appellativ","klare Haltung","an die Öffentlichkeit gerichtet"],
+        merksatz: "Ein offener Brief macht eine private Botschaft öffentlich.",
+        rubric: { pdf: "raster/06-offener-brief.pdf", meta: "Schriftlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 1–2 Seiten · Sozialform: Einzel",
+          desc: "Schülerinnen und Schüler verfassen einen offenen Brief zu einem fachbezogenen Thema. KI optional, mit Logbuch. Einzelleistung.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fachlich fehlerhaft / fehlt", l3: "Grundbezug vorhanden", l6: "Fachlich korrekt und nachvollziehbar", l9: "Differenziert, eigene Wertung", l12: "Präzise, belegt, tiefgründig" },
+            { name: "Textstruktur & Aufbau", l0: "Kein erkennbarer Aufbau", l3: "Ansatz vorhanden", l6: "Einleitung, Hauptteil, Appell", l9: "Überzeugend strukturiert", l12: "Spannungsbogen und Adressatenbezug gezielt" },
+            { name: "Argumentation", l0: "Behauptungen ohne Belege", l3: "Einzelne Argumente, kaum belegt", l6: "Mehrere Argumente mit Belegen", l9: "Kohärente Argumentation", l12: "Strategisch, Gegenargumente eingebunden" },
+            { name: "Sprachliche Gestaltung", l0: "Viele Fehler, kaum Stil", l3: "Verständlich, wenig Stil", l6: "Stil angemessen, Fachsprache korrekt", l9: "Stilistisch überzeugend", l12: "Zielgruppengerecht, rhetorisch stark" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung dokumentiert", l6: "Eigenleistung belegt", l9: "Überarbeitungen sichtbar", l12: "Reflexion: Was hat KI besser / schlechter gemacht?" },
+          ],
+          school: [
+            { aspect: "Umfang", hs: "1 Seite, Kernaussage", rs: "1,5 Seiten, Argumente", gym: "2 Seiten, differenzierte Argumentation" },
+            { aspect: "Argumentation", hs: "1–2 Argumente + Beispiel", rs: "3 Argumente, Gegenargument", gym: "Komplexe Argumentationsstrategie" },
+            { aspect: "Fachsprache", hs: "Grundbegriffe korrekt", rs: "Fachbegriffe differenziert", gym: "Präzise, quellenbezogen" },
+            { aspect: "KI-Nutzung", hs: "Formulierungshilfe dokumentiert", rs: "Inhaltliche Vorschläge kritisch prüfen", gym: "KI als Gegenargumentation nutzen" },
+          ] } },
+      { num: "12", title: "Podcast", h2: "Aufbau einer Folge", h3: "Typische Formate",
+        def: ["Audiobeitrag zum Anhören – manchmal ergänzt durch Video","erscheint als Serie, in einzelnen Episoden (Folgen)","Thema kann fest sein oder von Folge zu Folge wechseln","wird über das Internet verbreitet, meist kostenlos","man kann Podcasts abonnieren – neue Folgen laden automatisch nach","keine feste Länge, oft zwischen 10 und 60 Minuten"],
+        col2: ["Anmoderation: Begrüßung, Thema, Vorschau","Hauptteil: Interview, Gespräch, Reportage oder Erzählung","Abmoderation: Zusammenfassung, Verabschiedung, Ausblick"],
+        col3: ["Interview","Gespräch / Diskussion","Reportage","Erzählung / Hörspiel","Feature (recherchiert, montiert)"],
+        merksatz: "Ein Podcast ist wie eine Radiosendung, die man sich aussuchen und jederzeit anhören kann.",
+        rubric: { pdf: "raster/01-podcast.pdf", meta: "Medienprodukt · KI-Nutzung: Ja (mit KI-Logbuch) · Dauer/Umfang: 15–20 Min. · Sozialform: Gruppe oder Einzel",
+          desc: "Schülerinnen und Schüler erstellen eine Podcast-Episode zu einem fachlichen Thema. Bei KI-Nutzung wird ein KI-Logbuch geführt (dokumentiert Prompts, KI-Output, eigene Überarbeitungen).",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Inhalt überwiegend fehlerhaft oder fehlt", l3: "Grundaussagen teils korrekt", l6: "Grundaussagen korrekt, Tiefe ausbaufähig", l9: "Fachlich korrekt, angemessene Tiefe", l12: "Präzise, differenziert, eigenständig verknüpft" },
+            { name: "Struktur & Dramaturgie", l0: "Kein roter Faden erkennbar", l3: "Ansatz einer Struktur", l6: "Einleitung, Hauptteil, Schluss erkennbar", l9: "Klarer Aufbau, Übergänge gezielt", l12: "Durchdachte Dramaturgie, Publikum eingebunden" },
+            { name: "Sprache & Verständlichkeit", l0: "Überwiegend unverständlich", l3: "Teils verständlich, kaum Fachsprache", l6: "Verständlich, Fachsprache vorhanden", l9: "Zielgruppengerecht, Fachsprache korrekt", l12: "Lebendig, souveräne Fachsprache" },
+            { name: "Quellennutzung & Recherche", l0: "Keine Quellen im Podcast genannt", l3: "1–2 Quellen benannt, kaum Einordnung", l6: "Mehrere Quellen benannt", l9: "Quellen eingeordnet, Bezug zum Inhalt", l12: "Quellen kritisch geprüft, im Podcast erklärt" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden / nicht nachvollziehbar", l3: "Prompts dokumentiert, keine Reflexion", l6: "Nutzung dokumentiert, Entscheidungen benannt", l9: "Eigenleistung klar abgegrenzt", l12: "Tiefe Reflexion, KI-Beitrag und Eigenleistung differenziert" },
+          ],
+          school: [
+            { aspect: "Fachtiefe", hs: "1 Kernaussage klar erklärt", rs: "2–3 Aspekte verbunden, Belege", gym: "Mehrperspektivisch, Argumente gewichtet" },
+            { aspect: "Länge / Tiefe", hs: "10–15 Min., 1 Leitgedanke", rs: "15–20 Min., strukturierter Inhalt", gym: "20 Min., inhaltlich dicht" },
+            { aspect: "KI-Nutzung", hs: "KI als Formulierungshilfe mit Anleitung", rs: "KI-Output kritisch prüfen, Änderungen begründen", gym: "KI evaluieren, eigene Position entwickeln" },
+            { aspect: "Quellenarbeit", hs: "1–2 Quellen, benennen reicht", rs: "Quellen einordnen", gym: "Quellenkritik und Perspektivenabgleich" },
+          ] } },
+      { num: "13", title: "Poetry Slam", h2: "Aufbau", h3: "Merkmale",
+        def: ["Wettbewerb im lauten Vortragen selbstgeschriebener Texte","meist Gedichte, aber auch Prosa oder Rap","freier Vortrag ohne Requisiten oder Kostüme","Publikum bewertet, Zeitlimit meist 3 bis 6 Minuten"],
+        col2: ["eigener Text","Vortrag mit Betonung, Rhythmus, Mimik","Bewertung durch Publikum oder Jury"],
+        col3: ["persönlicher Stil","Wortspiele, Reime, Rhythmus","freier Vortrag"],
+        merksatz: "Beim Poetry Slam zählen Text und Vortrag gleichermaßen.",
+        rubric: { pdf: "raster/05-poetry-slam.pdf", meta: "Kreativ-sprachlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 5–8 Min. · Sozialform: Einzel",
+          desc: "Fachliche Inhalte werden in einem selbst geschriebenen Slam-Text kreativ aufbereitet und vorgetragen. KI ist optional und wird im Logbuch dokumentiert.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Kein Fachwissen erkennbar", l3: "Fachlicher Bezug angedeutet", l6: "Kernaussagen korrekt eingebettet", l9: "Fachinhalte präzise verwoben", l12: "Kreativ und präzise, eigenständige Wertung sichtbar" },
+            { name: "Sprachliche Gestaltung", l0: "Kaum Gestaltungsmittel", l3: "Einfache Mittel (Reim)", l6: "Bildsprache, Rhythmus bewusst", l9: "Gezielt eingesetzte Stilmittel", l12: "Sprachlich stark, eigene Stimme erkennbar" },
+            { name: "Authentizität & Eigenleistung", l0: "Text wirkt übernommen / fremd", l3: "Eigene Anteile erkennbar", l6: "Eigene Stimme deutlich", l9: "Originell, persönlich", l12: "Mutig, einzigartig" },
+            { name: "Vortrag & Wirkung", l0: "Sehr leise, kein Blickkontakt", l3: "Teils ausdrucksstark", l6: "Ausdrucksvoll, Tempo variiert", l9: "Mitreißend", l12: "Publikum einbezogen, Wirkung gezielt" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "KI-Nutzung benannt", l6: "Dokumentiert, Eigenanteile erkennbar", l9: "Eigenleistung klar abgegrenzt", l12: "Reflexion: KI-Sprache vs. eigene Stimme" },
+          ],
+          school: [
+            { aspect: "Fachtiefe", hs: "1 Kernbotschaft klar transportiert", rs: "Mehrere Aspekte verbunden", gym: "Komplexer Gedankengang verdichtet" },
+            { aspect: "Länge", hs: "3–5 Min.", rs: "5–7 Min.", gym: "7–8 Min., dicht" },
+            { aspect: "Sprachliche Mittel", hs: "Reim und Rhythmus", rs: "Metaphern, Wiederholung", gym: "Komplexe Stilmittel, eigener Stil" },
+            { aspect: "KI-Nutzung", hs: "Kein KI", rs: "Formulierungsideen prüfen", gym: "KI als Sprachspiegel – Kontrast zur eigenen Stimme" },
+          ] } },
+      { num: "14", title: "Präsentation", h2: "Aufbau", h3: "Merkmale",
+        def: ["mündlicher Vortrag zu einem fachlichen Thema, meist mit visueller Unterstützung (Folien, Plakat)","vermittelt Inhalte strukturiert und zielgerichtet an ein Publikum","kombiniert freies Sprechen mit visuellen Hilfsmitteln","endet häufig mit einer Fragerunde"],
+        col2: ["Einleitung: Thema und Gliederung","Hauptteil: Inhalte strukturiert vorgestellt","Schluss: Zusammenfassung und Fazit"],
+        col3: ["klare Gliederung","Blickkontakt zum Publikum","visuelle Unterstützung sinnvoll eingesetzt","freies Sprechen statt Ablesen"],
+        merksatz: "Eine Präsentation trägt Inhalte strukturiert vor und macht sie durch Visualisierung greifbar.",
+        rubric: { pdf: "raster/14-praesentation.pdf", meta: "Mündlich · KI-Nutzung: Optional (mit KI-Logbuch) · Dauer/Umfang: 8–12 Min. · Sozialform: Einzel oder Gruppe",
+          desc: "Schülerinnen und Schüler stellen ein fachliches Thema in einem strukturierten Vortrag mit visueller Unterstützung vor. KI optional, mit Logbuch.",
+          criteria: [
+            { name: "Fachlicher Inhalt", l0: "Fehlerhaft / fehlt", l3: "Grundaussagen vorhanden", l6: "Fachlich korrekt, wesentliche Aspekte", l9: "Vollständig, differenziert", l12: "Präzise, Zusammenhänge sichtbar gemacht" },
+            { name: "Struktur & Gliederung", l0: "Kein roter Faden erkennbar", l3: "Ansatz einer Struktur", l6: "Einleitung, Hauptteil, Schluss erkennbar", l9: "Klarer Aufbau, Übergänge gezielt", l12: "Durchdachte Dramaturgie, Publikum eingebunden" },
+            { name: "Visuelle Unterstützung", l0: "Folien fehlen / unpassend", l3: "Folien vorhanden, wenig hilfreich", l6: "Unterstützt das Verständnis", l9: "Gezielt eingesetzt, klar gegliedert", l12: "Kreativ und präzise, Gestaltungsprinzipien bewusst" },
+            { name: "Vortragsweise", l0: "Abgelesen, kein Blickkontakt", l3: "Teilweise frei gesprochen", l6: "Frei gesprochen, sicherer Auftritt", l9: "Souverän, Publikum einbezogen", l12: "Mitreißend, souveräne Rhetorik" },
+            { name: "KI-Logbuch (falls genutzt)", l0: "Nicht vorhanden", l3: "Nutzung benannt, keine Reflexion", l6: "Dokumentiert und begründet", l9: "Eigenleistung klar abgegrenzt", l12: "Kritisch reflektiert: Design vs. Inhalt getrennt" },
+          ],
+          school: [
+            { aspect: "Fachtiefe", hs: "1 Kernaussage klar erklärt", rs: "2–3 Aspekte verbunden, Belege", gym: "Mehrperspektivisch, Argumente gewichtet" },
+            { aspect: "Länge", hs: "5–7 Min.", rs: "7–10 Min.", gym: "10–12 Min., inhaltlich dicht" },
+            { aspect: "Visualisierung", hs: "Einfache Folien / Plakat", rs: "Digitales Layout", gym: "Konzeptionelles Designdenken" },
+            { aspect: "KI-Nutzung", hs: "KI für Folienentwurf", rs: "KI-Output kritisch prüfen", gym: "KI gezielt einsetzen, Grenzen benennen" },
+          ] } },
+      { num: "15", title: "Talkshow / Simulation", h2: "Ablauf", h3: "Merkmale",
+        def: ["Nachspielen einer Situation in verteilten Rollen","Teilnehmende übernehmen Perspektiven: Personen, Interessengruppen","simuliert reale oder fiktive Szenarien","fördert Empathie und Perspektivwechsel"],
+        col2: ["Rollen verteilen und vorbereiten","Szene spielen / simulieren","Reflexion und Auswertung"],
+        col3: ["Perspektivwechsel","Improvisation","klare Rahmenbedingungen: Setting, Ziel"],
+        merksatz: "Im Rollenspiel wird eine fremde Perspektive selbst erlebt.",
+        rubric: { pdf: "raster/10-rollenspiel-simulation.pdf", meta: "Mündlich-szenisch · KI-Nutzung: Nein · Dauer/Umfang: 10–20 Min. · Sozialform: Gruppe",
+          desc: "Die Gruppe übernimmt verschiedene Rollen und diskutiert ein fachliches Problem aus unterschiedlichen Perspektiven. Kein KI-Einsatz.",
+          criteria: [
+            { name: "Rollenverständnis", l0: "Rolle nicht eingenommen", l3: "Rolle ansatzweise erkennbar", l6: "Rolle klar eingenommen", l9: "Glaubhaft, fachorientiert", l12: "Vertieft, konsequent durchgehalten" },
+            { name: "Fachwissen in der Rolle", l0: "Keine fachlichen Argumente", l3: "Einzelne Fachargumente", l6: "Korrekte Argumente aus Rollenperspektive", l9: "Fachlich präzise", l12: "Rollenperspektive konsequent fachlich begründet" },
+            { name: "Diskussionsbeitrag", l0: "Kaum beteiligt", l3: "Gelegentlich beteiligt", l6: "Aktiv und konstruktiv", l9: "Führend und strukturierend", l12: "Bringt Diskussion voran, alle einbezogen" },
+            { name: "Perspektivwechsel (Reflexion)", l0: "Keine Reflexion", l3: "Oberflächlich", l6: "Eigene Rolle und Gegenpositionen benannt", l9: "Ansatzweise Reflexion in alle Rollen", l12: "Perspektivwechsel in alle Rollen gelungen" },
+            { name: "Kooperation in der Gruppe", l0: "Dominierend oder passiv", l3: "Teils konstruktiv", l6: "Konstruktiv, auf andere eingegangen", l9: "Ausgleichend", l12: "Alle Mitglieder einbezogen, harmonisch" },
+          ],
+          school: [
+            { aspect: "Rollenpaket", hs: "Einfache, klar beschriebene Rollen", rs: "Rollen mit Interessenkonflikten", gym: "Rollen mit komplexen Motivlagen" },
+            { aspect: "Fachtiefe", hs: "1 Fachargument pro Rolle", rs: "2–3 belegte Argumente", gym: "Komplexe Interessenlagen fachlich untermauert" },
+            { aspect: "Reflexion", hs: "Leitfragen nach Spiel", rs: "Halboffene Reflexion", gym: "Freie Metareflexion: Perspektive vs. Fakten" },
+            { aspect: "Vorbereitung", hs: "Rollenkarte mit Leitfragen", rs: "Rollenkarte + Recherche", gym: "Eigenständige Rollenentwicklung" },
+          ] } },
+    ];
+    return { items };
+  }
+}
+
+</script>
+</body>
+</html>

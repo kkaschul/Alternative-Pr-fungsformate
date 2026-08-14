@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Projektzeit – Übersicht</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; text-wrap: pretty; }
+  body { margin: 0; background: oklch(94% 0.005 60); font-family: 'Helvetica Neue', Arial, sans-serif; color: oklch(22% 0.01 60); }
+  a { color: oklch(60% 0.15 30); }
+  a:hover { color: oklch(50% 0.15 30); }
+  #sdg-topbar { position: fixed; top: 0; left: 0; right: 0; height: 6px; display: flex; z-index: 20; }
+  #sdg-topbar span { flex: 1 1 0; }
+  #sdg-bg { position: fixed; inset: 0; z-index: -1; display: flex; opacity: 0.05; pointer-events: none; }
+  #sdg-bg span { flex: 1 1 0; }
+  main { max-width: 900px; margin: 0 auto; padding: 60px 24px 80px; }
+  h1 { font-family: Georgia, serif; font-weight: 400; font-size: 36px; margin: 6px 0 8px; }
+  p.sub { font-size: 15px; color: oklch(45% 0.02 60); margin: 0 0 28px; }
+  #downloadAll { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 40px; padding: 12px 22px; border-radius: 8px; background: oklch(60% 0.15 30); color: white; text-decoration: none; font-size: 15px; font-weight: 700; }
+  .grid { display: grid; gap: 16px; }
+  .card { display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit; background: oklch(98.5% 0.006 60); border: 1px solid oklch(88% 0.01 60); border-radius: 10px; padding: 22px 24px; transition: border-color .15s; }
+  .card:hover { border-color: oklch(60% 0.15 30); }
+  .num { font-family: Georgia, serif; font-size: 20px; color: oklch(60% 0.15 30); flex: 0 0 auto; width: 28px; }
+  .card .label { font-size: 19px; font-weight: 700; }
+  .card .desc { font-size: 13px; color: oklch(45% 0.02 60); margin-top: 2px; }
+  @media print { #sdg-topbar, #sdg-bg { display: none; } }
+</style>
+</head>
+<body>
+<div id="sdg-topbar"></div>
+<div id="sdg-bg"></div>
+<main>
+  <h1>Projektzeit</h1>
+  <p class="sub">Alle Materialien zum Projektlernen auf einen Blick.</p>
+  <a id="downloadAll" href="Projektzeit-Gesamt.zip" download>Alles herunterladen (ZIP mit allen Unterlagen)</a>
+  <div class="grid">
+    <a class="card" href="dokumente/allgemeines.pdf" target="_blank">
+      <span class="num">01</span>
+      <span><span class="label">Allgemeines</span><br><span class="desc">Ablauf der Projektzeit, Phasen, Checkpoints und häufige Fragen</span></span>
+    </a>
+    <a class="card" href="dokumente/berichte.pdf" target="_blank">
+      <span class="num">02</span>
+      <span><span class="label">Berichte</span><br><span class="desc">Zwischenbericht, Teamarbeits-Fragebogen und Coaching-Bogen</span></span>
+    </a>
+    <a class="card" href="dokumente/phasen.pdf" target="_blank">
+      <span class="num">03</span>
+      <span><span class="label">Phasen</span><br><span class="desc">Input-Logbuch, KI-Nutzung, Interviewplanung und Konkretisierung</span></span>
+    </a>
+    <a class="card" href="dokumente/bewertung.pdf" target="_blank">
+      <span class="num">04</span>
+      <span><span class="label">Bewertung</span><br><span class="desc">Bewertungsbögen und Erwartungshorizont je Jahrgang und Schulform</span></span>
+    </a>
+    <a class="card" href="dokumente/partizipationsstufen.pdf" target="_blank">
+      <span class="num">05</span>
+      <span><span class="label">Partizipationsstufen</span><br><span class="desc">Kompetenzerwartungen von Coach-geleitet bis eigenständig</span></span>
+    </a>
+    <a class="card" href="methodenkarten.html">
+      <span class="num">06</span>
+      <span><span class="label">Prüfungsformate</span><br><span class="desc">15 Methoden plus Pitch, je mit Definition und Bewertungsraster</span></span>
+    </a>
+  </div>
+</main>
+<script>
+  var sdgColors = ['#E5243B','#DDA63A','#4C9F38','#C5192D','#FF3A21','#26BDE2','#FCC30B','#A21942','#FD6925','#DD1367','#FD9D24','#BF8B2E','#3F7E44','#0A97D9','#56C02B','#00689D','#19486A'];
+  ['sdg-topbar','sdg-bg'].forEach(function(id) {
+    var el = document.getElementById(id);
+    el.innerHTML = sdgColors.map(function(c) { return '<span style="background:' + c + ';"></span>'; }).join('');
+  });
+</script>
+</body>
+</html>

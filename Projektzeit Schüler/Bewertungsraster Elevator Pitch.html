@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Bewertungsraster – Elevator Pitch</title>
+<script src="./doc-page.js"></script>
+<style>
+  body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; color: oklch(22% 0.01 60); }
+  table { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  th, td { border: 1px solid oklch(80% 0.01 60); padding: 6px 7px; text-align: left; vertical-align: top; }
+  th { background: oklch(94% 0.01 30); font-weight: 700; }
+  .crit-name { font-weight: 700; width: 13%; }
+  h1 { font-family: Georgia, serif; font-weight: 400; font-size: 30px; margin: 0 0 4px; }
+  .meta { font-size: 12px; color: oklch(45% 0.02 60); margin-bottom: 8px; }
+  .desc { font-size: 12px; margin-bottom: 18px; }
+  h2.section { font-family: Georgia, serif; font-weight: 400; font-size: 17px; color: oklch(60% 0.15 30); margin: 22px 0 10px; }
+  .fields { display: flex; flex-direction: column; gap: 6px; font-size: 11px; margin-bottom: 14px; }
+  .fields .row { display: flex; gap: 24px; }
+  .fields .row span { flex: 1; border-bottom: 1px solid oklch(75% 0.01 60); padding-bottom: 2px; }
+  .points { display: flex; justify-content: space-between; margin-top: 10px; font-size: 12px; font-weight: 700; }
+  .feedback { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 11px; margin-top: 8px; }
+  .feedback .box { border: 1px solid oklch(80% 0.01 60); border-radius: 4px; padding: 8px; min-height: 60px; }
+  .sig { font-size: 11px; margin-top: 18px; display: flex; flex-direction: column; gap: 14px; }
+</style>
+</head>
+<body>
+<doc-page size="a4" margin="18mm">
+  <h1>Elevator Pitch</h1>
+  <div class="meta">Mündlich · KI-Nutzung: Nein · Dauer/Umfang: 3–5 Min. · Sozialform: Einzel</div>
+  <div class="desc">Eine sehr kurze, überzeugende Präsentation einer Idee oder eines Produkts. Eigene Leistung – kein KI-Einsatz während der Prüfung.</div>
+
+  <h2 class="section">Bewertungsraster</h2>
+  <div class="fields">
+    <div class="row"><span>Name:</span><span>Fach:</span><span>Fachlehrkraft:</span></div>
+    <div class="row"><span>Lerngruppe:</span><span>Schulform:</span></div>
+    <div class="row"><span>Thema des Pitches:</span></div>
+  </div>
+
+  <h2 class="section" style="margin-top:8px;">Inhaltliche Kriterien</h2>
+  <table>
+    <thead>
+      <tr><th>Kriterium</th><th>0 Pkt.</th><th>3 Pkt.</th><th>6 Pkt.</th><th>9 Pkt.</th><th>12 Pkt.</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit-name">Fachliche Substanz</td>
+        <td>Kaum Fachwissen erkennbar</td>
+        <td>Grundkenntnisse vorhanden</td>
+        <td>Fachlich korrekt und nachvollziehbar</td>
+        <td>Korrekt, Fachwissen präzise eingesetzt</td>
+        <td>Überzeugend argumentiert, differenziert</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Aufbau &amp; Stringenz</td>
+        <td>Kein roter Faden</td>
+        <td>Ansatz vorhanden</td>
+        <td>Logischer Aufbau</td>
+        <td>Verdichtet auf das Wesentliche</td>
+        <td>Perfekter Spannungsbogen, Publikum einbezogen</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Fachgespräch (Gate 2)</td>
+        <td>Kernaussagen nicht erklärbar</td>
+        <td>Teils erklärbar</td>
+        <td>Fachfragen kompetent beantwortet</td>
+        <td>Reflektiert, auf Rückfragen eingegangen</td>
+        <td>Differenziert, Querverbindungen hergestellt</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">Formale Kriterien</h2>
+  <table>
+    <thead>
+      <tr><th>Kriterium</th><th>0 Pkt.</th><th>3 Pkt.</th><th>6 Pkt.</th><th>9 Pkt.</th><th>12 Pkt.</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit-name">Auftritt &amp; Wirkung</td>
+        <td>Sehr unsicher, kein Blickkontakt</td>
+        <td>Teilweise sicher</td>
+        <td>Sicherer Auftritt, Gestik angemessen</td>
+        <td>Souverän, überzeugend</td>
+        <td>Mitreißend, Publikum aktiv einbezogen</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Zeitmanagement</td>
+        <td>Deutlich über-/unterzogen</td>
+        <td>Näherungsweise passend</td>
+        <td>Im Zeitrahmen</td>
+        <td>Gut getaktet</td>
+        <td>Perfekt – jede Sekunde genutzt</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="points"><span>Punkte: __________ /60</span><span>Note: _____________</span></div>
+
+  <h2 class="section">Schulformspezifische Erwartungen</h2>
+  <table>
+    <thead>
+      <tr><th>Aspekt</th><th>Hauptschule</th><th>Realschule</th><th>Gymnasium</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="crit-name">Sprachliche Anforderung</td>
+        <td>Verständlich auf Alltagsniveau</td>
+        <td>Fachbegriffe korrekt eingesetzt</td>
+        <td>Präzise Fachsprache, Rhetorik</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Inhalt</td>
+        <td>1 Lösung benennen und begründen</td>
+        <td>Vor- und Nachteile abwägen</td>
+        <td>Komplexität benennen, Zielgruppe adressieren</td>
+      </tr>
+      <tr>
+        <td class="crit-name">Fachgespräch</td>
+        <td>3 vorgegebene Leitfragen</td>
+        <td>2 offene Fragen</td>
+        <td>Freies Expertengespräch</td>
+      </tr>
+      <tr>
+        <td class="crit-name">KI-Vorbereitung</td>
+        <td>Keine KI-Nutzung</td>
+        <td>Recherche mit KI erlaubt (kein Logbuch)</td>
+        <td>Keine KI – Eigenleistung im Vordergrund</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="section">Feedback</h2>
+  <div class="feedback">
+    <div><div style="margin-bottom:4px;">Das hat überzeugt:</div><div class="box"></div></div>
+    <div><div style="margin-bottom:4px;">Daran arbeite ich weiter:</div><div class="box"></div></div>
+  </div>
+
+  <div class="sig">
+    <div>Datum / Unterschrift Lehrkraft: ____________________________</div>
+    <div>Kenntnisnahme Erziehungsberechtigter: ____________________________</div>
+  </div>
+</doc-page>
+</body>
+</html>
